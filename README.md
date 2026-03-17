@@ -17,6 +17,8 @@ To write a program to predict daily temperature , PM2.5 pollution level and Ener
 4. 
 
 ## Program:
+```
+/*
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -122,8 +124,6 @@ print("\n--- NEXT STEP PREDICTIONS (Using Latest Data) ---")
 for target in targets:
     pred_val = models[target].predict(latest_data)[0]
     print(f"Predicted {target_meta[target][0]}: {pred_val:.2f} {target_meta[target][1]}")
-```
-/*
 Program to implement the Random Forest Algorithm to predict daily temperature , PM2.5 pollution level and Energy based on environmental sensor data.
 Developed by: MONISH V
 RegisterNumber: 25011594 
