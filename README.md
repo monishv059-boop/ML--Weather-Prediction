@@ -11,10 +11,10 @@ To write a program to predict daily temperature , PM2.5 pollution level and Ener
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import required Python libraries such as NumPy, Pandas, and Scikit-learn.
+2. Perform data preprocessing such as handling missing values and selecting relevant features.
+3. Initialize the Random Forest Regressor model.
+4. Evaluate the performance of the model using accuracy metrics such as Mean Squared Error (MSE) or R² score.
 
 ## Program:
 ```
